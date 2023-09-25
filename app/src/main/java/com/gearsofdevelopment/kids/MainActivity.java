@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
             } finally {
                 zis.close();
             }
-        } catch (Exception e) {gh repo clone GearsGod/kids
+        } catch (Exception e) {
             Log.e("", e.getMessage());
         }
         return paths;
